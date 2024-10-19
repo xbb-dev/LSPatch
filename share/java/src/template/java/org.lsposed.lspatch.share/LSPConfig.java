@@ -15,10 +15,10 @@ public class LSPConfig {
 
     static {
         instance = new LSPConfig();
-        instance.API_CODE = ${apiCode};
-        instance.VERSION_CODE = ${verCode};
-        instance.VERSION_NAME = "${verName}";
-        instance.CORE_VERSION_CODE = ${coreVerCode};
-        instance.CORE_VERSION_NAME = "${coreVerName}";
+        instance.API_CODE = 93;
+        instance.VERSION_CODE = 398;
+        instance.VERSION_NAME = "0.6";
+        instance.CORE_VERSION_CODE = 7024;
+        instance.CORE_VERSION_NAME = "1.9.2";
     }
 }
